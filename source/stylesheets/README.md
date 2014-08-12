@@ -1,4 +1,4 @@
 sass-structure
 ==============
 
-Fodler template for sass projects
+Folder template for sass projects

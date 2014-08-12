@@ -3,19 +3,17 @@
 ============================ */
 
 $gray: hsla(0,0,91%,1);
-$light-gray: hsla(0,0,60%,1);
 $white: hsla(0,0,100%,1);
-$transparent-white: hsla(0,0,100%,0.95);
-$dark-gray: hsla(0,0,53%,1);
 $black: hsla(0,0,0%,1);
-$navy-black: hsla(219,100,13%,1);
-$transparent-black: hsla(0,0,0%,0.75);
+$background-color: hsla(219,97%,77%,1);
+$branding-color: hsla(350,67%,55%,1);
+$branding-darker: hsla(350,67%,25%,1);
 
 /* ============================ 
 	Typography
 ============================ */
 
-$body-font: "pragmatica-web", Helvetica, Arial, sans-serif;
+$body-font: "Bubblegum Sans", Helvetica, Arial, cursive;
 $text-font: "minion-pro", Times, serif;
 
 $heavy-text:900;
