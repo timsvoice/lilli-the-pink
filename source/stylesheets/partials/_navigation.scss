@@ -1,0 +1,26 @@
+.top-bar {
+  height: 3.5rem;
+  background-color: $background-color;
+}
+
+.branding {
+  img {
+    height: 2.75rem;
+  }
+}
+
+.top-bar-section {
+  ul {
+    background: $background-color;
+  }
+  li:not(.has-form) a:not(.button) {
+    background: $background-color;
+    color: lighten($branding-color, 15%);
+    font-size: 1.5rem;
+    &:hover {
+      @extend a:not(.button);
+      background: darken($background-color, 10%);
+    }
+  }
+}
+

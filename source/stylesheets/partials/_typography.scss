@@ -7,10 +7,17 @@ h1 {
 
 .text-highlight {
   font-size: 2rem;
+  background: $white;
 }
 
 p {
-  font-family: $body-font;
   font-size: 1.25rem;
   line-height: 2.25rem;
+  background-color: $white;
+}
+
+.book-text {
+  background-color: $white;
+  margin-top: 1rem;
+  padding: 1rem;
 }
