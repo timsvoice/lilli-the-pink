@@ -1,5 +1,4 @@
 *, body {
-  background-color: $background-color;
 }
 
 hr {
@@ -21,19 +20,29 @@ hr {
 	display: none !important;
 }
 
+.intro {
+  background-color: $background-color;
+}
+
 .branding {
   margin-left: 0.5rem;
   margin-top: 0.25rem;
 }
 
 .lilli {
+  @include dead-center(400px, 240px);
   @include breakpoint(small) {
-    margin-left: 0.5rem;
+    @include dead-center(300px, 160px);
   }
 }
 
+.book {
+  background-color: darken($white, 10%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .book-image {
-  margin-top: 17.5rem;
   margin-bottom: 2rem;
   img {
     width: 100%;
@@ -41,5 +50,22 @@ hr {
 }
 
 .book-description {
-  margin-top: 3rem;
+  margin-top: 0rem;
+}
+
+.horizon {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  overflow: visible;
+  visibility: visible;
+  display: block;
+}
+
+.author.bio {
+  background-color: darken($background-color, 15%);
+  padding-top: 1rem;
 }

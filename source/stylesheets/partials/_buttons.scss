@@ -1,7 +1,30 @@
-.button.buy {
+.button {
+  font-family: $highlight-font;
+}
+
+.button-buy {
+  @extend .button;
   display: inline-block;
-  margin-right: 1.5rem;
-  background-color: $branding-color;
-  border-bottom: 0.25rem solid $branding-darker;
-  margin-left: 0.7rem;
+  background-color: lighten($background-color, 0%);
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: $branding-color;
+  font-weight: $heavy-text;
+  &:hover {
+    background-color: lighten($background-color, 5%);
+    color: $branding-color;
+  }  
+}
+
+.button.buy.nav {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: $highlight-font;
+  color: $white;
+  border-bottom: none;
+  background-color: darken($background-color, 5%);
+  font-weight: $light-text;
+  &:hover {
+    background-color: darken($background-color, 10%)
+  }
 }

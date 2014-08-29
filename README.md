@@ -1,4 +1,3 @@
-
 middleman-sass-foundation
 =========================
 

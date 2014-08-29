@@ -1,16 +1,9 @@
-var app = angular.module('lilli',[
-  'ngRoute',
-  ]);
+function resizesplash() {
+      var heights = window.innerHeight;
+      document.getElementById("splash").style.height = heights -68 + "px";
+  }
 
-app.config(['$routeProvider','$locationProvider',
-  function($routeProvider, $locationProvider) {
-    // 
-    $routeProvider.
-      when('/', {
-        templateUrl: '/',
-      }).
-      otherwise({
-        redirectTo: '/'
-      });
-      $locationProvider.html5Mode(true);
-  }]);
+  resizesplash();
+  window.onresize = function() {
+      resizesplash();
+};

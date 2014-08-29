@@ -1,23 +1,61 @@
 h1 {
   font-family: $body-font;
   color: $branding-color;
-  font-size: 6rem;
-  line-height: 6rem;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 .text-highlight {
-  font-size: 2rem;
-  background: $white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: $heavy-text;
+  font-family: $highlight-font;
 }
 
 p {
   font-size: 1.25rem;
-  line-height: 2.25rem;
-  background-color: $white;
+  line-height: 2rem;
 }
 
 .book-text {
-  background-color: $white;
-  margin-top: 1rem;
-  padding: 1rem;
+  color: $black;
+  margin-top: 0.5rem;
+  font-family: $body-font;
+}
+
+.book-image {
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: darken($gray, 40%);
+    font-style: italic;
+  }
+}
+
+.branding-nav {
+  i {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: $gray;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 1rem;
+    vertical-align: middle;
+    margin-top: 0.25rem;
+    &:hover {
+      color: $branding-color;
+        -webkit-transition: color 500ms ease-in-out 500ms;
+        -moz-transition: color 500ms ease-in-out 500ms;
+        -o-transition: color 500ms ease-in-out 500ms;
+        transition: color 500ms ease-in-out 500ms;
+    }
+  }
+}
+
+.author {
+  p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: darken($gray, 10%);
+  }
 }
