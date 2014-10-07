@@ -5,14 +5,15 @@
 .button-buy {
   @extend .button;
   display: inline-block;
-  background-color: lighten($background-color, 0%);
+  background-color: lighten($branding-color, 5%);
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  color: $branding-color;
-  font-weight: $heavy-text;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  color: $background-color;
   &:hover {
-    background-color: lighten($background-color, 5%);
-    color: $branding-color;
+    background-color: lighten($branding-color, 5%);
+    color: $white;
   }  
 }
 
@@ -20,11 +21,13 @@
   font-size: 1.5rem;
   line-height: 2rem;
   font-family: $highlight-font;
-  color: $white;
+  color: $background-color;
   border-bottom: none;
-  background-color: darken($background-color, 5%);
+  background-color: lighten($branding-color, 0%);
   font-weight: $light-text;
+  padding: 0.5rem 1.25rem;
   &:hover {
-    background-color: darken($background-color, 10%)
+    color: $white;
+    background-color: lighten($branding-color, 5%);
   }
 }

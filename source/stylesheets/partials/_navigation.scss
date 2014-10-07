@@ -9,11 +9,9 @@
 .branding-nav {
   background-color: darken($background-color, 0%);
   img {
-    height: 2.75rem;
-    background-color: darken($background-color, 0%)
-  }
-  i {
-    background-color: darken($background-color, 0%)    
+    height: 2rem;
+    background-color: darken($background-color, 0%);
+    margin: 1rem 1.5rem;
   }
 }
 
@@ -27,12 +25,12 @@
   }
   li:not(.has-form) a:not(.button) {
     background: darken($background-color, 0%);
-    color: $white;
+    color: $branding-color;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-family: $highlight-font;
-    margin-top: 1rem;
     font-weight: $light-text;
+    padding: 1.25rem 1.25rem;
     &:hover {
       @extend a:not(.button);
       background: darken($background-color, 0%);

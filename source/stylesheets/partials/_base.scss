@@ -21,6 +21,7 @@ hr {
 }
 
 .intro {
+  border-bottom: 0.125rem  solid darken($background-color, 5%);
   background-color: $background-color;
 }
 
@@ -66,6 +67,7 @@ hr {
 }
 
 .author.bio {
-  background-color: darken($background-color, 15%);
-  padding-top: 1rem;
+  border-top: 0.125rem  solid darken($background-color, 5%);
+  background-color: darken($background-color, 0%);
+  padding: 2rem;
 }

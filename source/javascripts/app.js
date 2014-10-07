@@ -1,6 +1,6 @@
 function resizesplash() {
       var heights = window.innerHeight;
-      document.getElementById("splash").style.height = heights -68 + "px";
+      document.getElementById("splash").style.height = heights -0 + "px";
   }
 
   resizesplash();
