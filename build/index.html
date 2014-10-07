@@ -6,19 +6,21 @@
     
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Lilli the Pink</title>
     
-    <link href="/stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/app.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
     <script src="/javascripts/modernizr.js" type="text/javascript"></script>
   </head>
   
   <body class="index">
-    <nav class="top-bar">
+    <div class="fixed">
+  <nav class="top-bar">
 
   <section class="top-bar-section">
     <!-- Right Nav Section -->
@@ -27,48 +29,73 @@
         <a href="#">About</a>
       </li>
       <li>
-        <a href="#">Lilli's Blog</a>
+        <a class="button buy nav" href="#">Buy the Book</a>
       </li>
-      <li class="divider"></li>
       <li class="divider show-for-small"></li>
     </ul>
 
     <ul class="left">
       <li class="name">
-        <div class="branding">
-          <img src="images/branding.png" /> 
+        <div class="branding-nav">
+          <img src="/images/branding.png" alt="branding">
         </div>
       </li>
     </ul>
   </section>
 </nav>
-  <div class="book-description small-12 medium-7 medium-push-5 columns">
-      <div class="lilli small-5 small-centered medium-4 columns end">
-        <img src="/images/Lilli.png" />         
-      </div> 
-    <div class="book-text">
+</div>
+<div class="intro">
+    <div class="row">
+    <div id="splash" class="branding">
+      <i class="ion-arrow-down-b arrow"></i>
+      <div class="horizon">
+        <div class="book-description">          
+          <div class="lilli">
+            <img class="lilli" src="/images/branding-cons.png" />
+          </div> 
+        </div>
+      </div>
+    </div>   
+  </div>
+</div>
+   <div class="book clearfix">
+ <div class="small-12 medium-10 columns medium-centered">
+      <div class="book-image small-12 medium-3 columns">
+      <img src="/images/Book.png" />
+      <a href="#" class="button-buy expand">Buy the Book</a>   
+    </div>
+    <div class="book-text medium-7 medium-offset-1 columns end">
       <p>
-      <span class="text-highlight">Pretty girls in pink cannot play football right?</span><br> Pretty girls in pink who wear hearing aids cannot possibly play football right? Wrong! Lilli-the-Pink can. 
-    </p>
-    <p>
-      One Sunday afternoon Lilli goes to Patterson Park with her father and her new baby Maggie-Rose. There she meets the big football skabanga boys. They think that all children who wear hearing aids are stupid and can’t do anything. But Lilli is a gitchy-gumee smart young lady, who is not at all afraid of them. Lilli saves her baby sister from being squashed by their football. Then she shows them a thing or two about how to score a goal, and she becomes the best, BEST football striker ever in the Patterson Pinkers Football Team. How about that! 
-    </p>
-    <p>
-      Lilli the Pink is written to try and help to meet the need for children’s books featuring characters who are disabled in some way. There just doesn’t seem to be much literature of this sort for disabled children to relate to. Lilli has a severe hearing loss, but she certainly doesn’t let it get in her way! Contrary to much mainstream thinking, children with hearing losses are just that: children first, who then happen to have a hearing loss of one sort or another. 
-    </p>
-    <p>
-      We hope that children like Lilli, who have wonderful, creative, spunky, sparkly minds behind their hearing losses will relate to this story and enjoy reading about someone just like themselves! 
-    </p>
+        <span class="text-highlight">Pretty girls in pink cannot play football right? Pretty girls in pink who wear hearing aids cannot possibly play football right? Wrong! Lilli-the-Pink can. </span>
+      </p>
+      <p>
+        One Sunday afternoon Lilli goes to Patterson Park with her father and her new baby Maggie-Rose. There she meets the big football skabanga boys. They think that all children who wear hearing aids are stupid and can’t do anything. But Lilli is a gitchy-gumee smart young lady, who is not at all afraid of them. Lilli saves her baby sister from being squashed by their football. Then she shows them a thing or two about how to score a goal, and she becomes the best, BEST football striker ever in the Patterson Pinkers Football Team. How about that! 
+      </p>
+    </div>
+</div>
+</div>
+
+
+  <div class="author bio">
+  <div class="row">
+    <div class="small-12 medium-4 columns left">
+      <p>
+        We hope that children like Lilli, who have wonderful, creative, spunky, sparkly minds behind their hearing losses will relate to this story and enjoy reading about someone just like themselves! 
+      </p>     
+    </div>
+    <div class="small-12 medium-4 columns right">
+      <a href="#">
+        <p>Contact the Authors</p>
+      </a>
+      <br>
+      <a href="#">
+        <p>Follow Lili on Facebook</p>
+      </a>
     </div>
   </div>
+</div>
 
-  <div class="book-image small-12 medium-5 medium-pull-7 columns">
-    <img src="/images/Book.png" />
-    <a href="#" class="small button buy">Buy the Book</a>
-  </div>
 
-    <script src="/javascripts/all.js" type="text/javascript"></script>
-<script src="/javascripts/mainController.js" type="text/javascript"></script>
-<script src="/javascripts/services.js" type="text/javascript"></script>
+    <script src="/javascripts/all.js" type="text/javascript"></script><script src="/javascripts/mainController.js" type="text/javascript"></script><script src="/javascripts/services.js" type="text/javascript"></script>
   </body>
 </html>

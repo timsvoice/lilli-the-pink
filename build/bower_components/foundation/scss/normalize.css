@@ -25,7 +25,7 @@ body {
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 41, ../bower_components/foundation/scss/normalize.scss */
+/* line 30, ../bower_components/foundation/scss/normalize.scss */
 article,
 aside,
 details,
@@ -44,7 +44,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 53, ../bower_components/foundation/scss/normalize.scss */
+/* line 50, ../bower_components/foundation/scss/normalize.scss */
 audio,
 canvas,
 progress,
@@ -67,7 +67,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 74, ../bower_components/foundation/scss/normalize.scss */
+/* line 73, ../bower_components/foundation/scss/normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -84,7 +84,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../bower_components/foundation/scss/normalize.scss */
+/* line 93, ../bower_components/foundation/scss/normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -101,7 +101,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 114, ../bower_components/foundation/scss/normalize.scss */
+/* line 113, ../bower_components/foundation/scss/normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -140,7 +140,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 158, ../bower_components/foundation/scss/normalize.scss */
+/* line 157, ../bower_components/foundation/scss/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -200,7 +200,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 228, ../bower_components/foundation/scss/normalize.scss */
+/* line 225, ../bower_components/foundation/scss/normalize.scss */
 code,
 kbd,
 pre,
@@ -220,7 +220,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 252, ../bower_components/foundation/scss/normalize.scss */
+/* line 248, ../bower_components/foundation/scss/normalize.scss */
 button,
 input,
 optgroup,
@@ -246,7 +246,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8+, and Opera
  * Correct `select` style inheritance in Firefox.
  */
-/* line 274, ../bower_components/foundation/scss/normalize.scss */
+/* line 273, ../bower_components/foundation/scss/normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -258,7 +258,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 289, ../bower_components/foundation/scss/normalize.scss */
+/* line 286, ../bower_components/foundation/scss/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -271,7 +271,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 299, ../bower_components/foundation/scss/normalize.scss */
+/* line 298, ../bower_components/foundation/scss/normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -279,7 +279,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 308, ../bower_components/foundation/scss/normalize.scss */
+/* line 307, ../bower_components/foundation/scss/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -300,7 +300,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 331, ../bower_components/foundation/scss/normalize.scss */
+/* line 330, ../bower_components/foundation/scss/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -313,7 +313,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 343, ../bower_components/foundation/scss/normalize.scss */
+/* line 342, ../bower_components/foundation/scss/normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -337,7 +337,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, ../bower_components/foundation/scss/normalize.scss */
+/* line 366, ../bower_components/foundation/scss/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -387,7 +387,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 421, ../bower_components/foundation/scss/normalize.scss */
+/* line 420, ../bower_components/foundation/scss/normalize.scss */
 td,
 th {
   padding: 0; }
