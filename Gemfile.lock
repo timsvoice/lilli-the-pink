@@ -126,7 +126,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman
+  middleman (~> 3.3.5)
   middleman-livereload
   puma
   rack-contrib
