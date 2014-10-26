@@ -34,6 +34,9 @@
     &:hover {
       background: darken($background-color, 0%);
     }
+    @include breakpoint(small) {
+      padding: 1.25rem 1rem;
+    }
   }
   a.button.about.nav {
     @extend li.button.buy.nav;
@@ -43,7 +46,7 @@
       background: $background-color;
     }
   }
-  li.name .branding-nav > a.branding-image {
+  li.name .branding-nav > a.branding-image, li a.branding-image {
     background: $background-color;
     &:hover {
       background: $background-color;

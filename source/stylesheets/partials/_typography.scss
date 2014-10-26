@@ -65,6 +65,10 @@ p {
       font-size: 1.5rem;
       color: lighten($branding-color, 0%);
       font-family: $highlight-font;
+      @include breakpoint(small) {
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
     }
   }
 }
