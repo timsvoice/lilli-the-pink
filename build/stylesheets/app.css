@@ -4145,7 +4145,7 @@ ul.pagination li {
   line-height: 1.4; }
 
 /* line 2806, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
-.panel.callout a:not(.button):not(.button-buy), .panel.callout .top-bar-section li:not(.has-form) a:not(.button-buy):not(.button):hover, .top-bar-section li:not(.has-form) .panel.callout a:not(.button-buy):not(.button):hover {
+.panel.callout a:not(.button):not(.button-buy) {
   color: #008CBA; }
 
 /* line 2808, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
@@ -4494,7 +4494,7 @@ dialog[open] {
   font-size: 0.875rem; }
 
 /* line 3066, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
-.side-nav li a:not(.button):not(.button-buy), .side-nav .top-bar-section li:not(.has-form) a:not(.button-buy):not(.button):hover, .top-bar-section .side-nav li:not(.has-form) a:not(.button-buy):not(.button):hover {
+.side-nav li a:not(.button):not(.button-buy) {
   display: block;
   color: #008CBA; }
 
@@ -5668,7 +5668,7 @@ meta.foundation-mq-topbar {
     background: #333; }
 
   /* line 3848, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
-  .top-bar-section li:not(.has-form) a:not(.button-buy):hover:not(.button) {
+  .top-bar-section li:not(.has-form) a:not(.button):not(.button-buy):hover {
     background: #272727; }
 
   /* line 3850, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
@@ -5679,7 +5679,7 @@ meta.foundation-mq-topbar {
     background: #008CBA; }
 
   /* line 3855, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
-  .top-bar-section li.active:not(.has-form) a:not(.button-buy):hover:not(.button) {
+  .top-bar-section li.active:not(.has-form) a:not(.button):not(.button-buy):hover {
     background: #007ba0; }
 
   /* line 3857, /Users/timsvoice/code/lillithepink/source/bower_components/foundation/css/foundation.css */
@@ -9863,7 +9863,7 @@ hr {
 /* line 40, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_base.scss */
 .book {
   background-color: #e6e6e6;
-  padding-top: 2rem;
+  padding-top: 6rem;
   padding-bottom: 2rem; }
 
 /* line 46, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_base.scss */
@@ -10003,7 +10003,7 @@ i.arrow {
     .top-bar-section ul li {
       margin-right: 1.25rem; }
   /* line 26, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
-  .top-bar-section li:not(.has-form) a:not(.button):not(.button-buy) {
+  .top-bar-section li.button.buy.nav, .top-bar-section a.button.about.nav, .top-bar-section a.about.nav.button-buy, .top-bar-section li.buy.nav.button-buy {
     background: #8bb3fd;
     color: #e74b89;
     font-size: 1.5rem;
@@ -10012,7 +10012,20 @@ i.arrow {
     font-weight: 200;
     padding: 1.25rem 1.25rem; }
     /* line 34, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
-    .top-bar-section li:not(.has-form) a:not(.button-buy):hover:not(.button) {
+    .top-bar-section li.button.buy.nav:hover, .top-bar-section a.button.about.nav:hover, .top-bar-section a.about.nav.button-buy:hover, .top-bar-section li.buy.nav.button-buy:hover {
+      background: #8bb3fd; }
+  /* line 38, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
+  .top-bar-section a.button.about.nav, .top-bar-section a.about.nav.button-buy {
+    background: #8bb3fd;
+    padding: 1rem; }
+    /* line 42, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
+    .top-bar-section a.button.about.nav:hover, .top-bar-section a.about.nav.button-buy:hover {
+      background: #8bb3fd; }
+  /* line 46, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
+  .top-bar-section li.name .branding-nav > a.branding-image {
+    background: #8bb3fd; }
+    /* line 48, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_navigation.scss */
+    .top-bar-section li.name .branding-nav > a.branding-image:hover {
       background: #8bb3fd; }
 
 /* line 1, /Users/timsvoice/code/lillithepink/source/stylesheets/partials/_buttons.scss */

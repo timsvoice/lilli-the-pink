@@ -3,10 +3,10 @@
 source 'http://rubygems.org'
 
 
-ruby "2.0.0"
+ruby "2.1.2"
 
 
-gem "middleman", "~>3.3.5"
+gem "middleman", "~>3.3.6"
 gem "rack-contrib"
 gem "puma"
 

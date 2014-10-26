@@ -23,7 +23,7 @@
       margin-right: 1.25rem;
     }
   }
-  li:not(.has-form) a:not(.button) {
+  li.button.buy.nav {
     background: darken($background-color, 0%);
     color: $branding-color;
     font-size: 1.5rem;
@@ -32,8 +32,21 @@
     font-weight: $light-text;
     padding: 1.25rem 1.25rem;
     &:hover {
-      @extend a:not(.button);
       background: darken($background-color, 0%);
+    }
+  }
+  a.button.about.nav {
+    @extend li.button.buy.nav;
+    background: $background-color;
+    padding: 1rem;
+    &:hover {
+      background: $background-color;
+    }
+  }
+  li.name .branding-nav > a.branding-image {
+    background: $background-color;
+    &:hover {
+      background: $background-color;
     }
   }
 }
