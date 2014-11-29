@@ -31,9 +31,9 @@ hr {
 }
 
 .lilli {
-  @include dead-center(400px, 240px);
+  @include dead-center(330px, 240px);
   @include breakpoint(small) {
-    @include dead-center(300px, 160px);
+    @include dead-center(220px, 150px);
   }
 }
 

@@ -10,6 +10,8 @@ gem "middleman", "~>3.3.6"
 gem "rack-contrib"
 gem "puma"
 
+gem 'middleman-deploy', '~> 1.0'
+
 # Live-reloading plugin
 gem "middleman-livereload"
 
