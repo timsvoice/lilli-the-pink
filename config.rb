@@ -113,7 +113,7 @@ activate :deploy do |deploy|
   deploy.host   = 'lillithepink.com'
   deploy.path   = "/var/www/lillithepink.com/public_html"
   # Optional Settings
-  # deploy.user  = 'tvaughan' # no default
+  deploy.user  = 'root' # no default
   # deploy.port  = 5309 # ssh port, default: 22
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
